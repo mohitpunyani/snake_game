@@ -1,0 +1,11 @@
+approach and steps
+step:1 create a grid (Array.from and map method)
+step2 : create a snake body and then color it only that part of snake body which match to our state
+step 3: movement of snake body or snake update, remove head and go one step ahead from tail
+step 4 : generate food
+step 5 : when food and snake intersect then increase length of snake, otherwise not
+step6 : when snake body touch previous body reset it
+learning 
+arra.from , map, use state, use effect ,use ref,dynamic css
+
+

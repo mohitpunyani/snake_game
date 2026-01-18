@@ -1,0 +1,32 @@
+.container{
+  height:15rem;
+  width:15rem;
+  border: .5px solid black;
+  display: grid;
+  margin: 15px;
+  grid-template-columns: repeat(15, 1fr);
+}
+.cell
+{
+  /* border: 0.9px solid black; */
+}
+.food
+{
+  background-color: red;
+
+}
+.snake{
+  background-color: green;
+}
+.score-btn {
+  margin-bottom: 12px;
+  margin-right: 6px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  cursor: default;
+}
